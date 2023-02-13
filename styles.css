@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1f2937;
+  padding: 12px 64px 44px 64px;
+}
+
+.rightHeader {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 64px 12px 64px;
+}
+
+.leftHero {
+  color: #e5e7eb;
+  font-size: 18px;
+  width: 50%;
+}
+
+.rightHero {
+  display: flex;
+  align-items: center;
+  padding: 24px;
+}
+
+.heroButton {
+  background-color: #3882f6;
+  border-radius: 12px;
+  padding: 8px 16px;
+  color: white;
+  font-weight: bold;
+}
